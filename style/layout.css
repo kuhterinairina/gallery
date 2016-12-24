@@ -16,19 +16,10 @@ body {
 
 .title {
   color: white;
-  font-family: 'PT Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   padding: 18px;
   font-size: 30px;
+  font-weight: bold;
 }
-
-
-body.posts,
-body.landing {
-  background-color: #FAFAFA;
-}
-
 
 body.posts .menubar,
 body.landing .menubar {
