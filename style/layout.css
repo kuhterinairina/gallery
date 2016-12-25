@@ -12,6 +12,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 .title {
@@ -33,5 +34,10 @@ body.landing .menubar {
 
 body {
   background-color: black;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+      width: 100%;
+  }
 }
